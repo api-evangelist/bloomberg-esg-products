@@ -68,6 +68,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/sustainable-finance/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-esg-products-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
