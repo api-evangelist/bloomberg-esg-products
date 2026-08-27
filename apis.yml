@@ -1,9 +1,8 @@
 aid: bloomberg-esg-products
 name: Bloomberg ESG Products
-description: Bloomberg ESG Products provide environmental, social, and governance
-  data, analytics, and scores to help investors assess sustainability risks and opportunities.
-  Bloomberg collects ESG data from thousands of companies globally, offering ESG scores,
-  climate data, green bond data, and sustainable finance analytics through the Bloomberg
+description: Bloomberg ESG Products provide environmental, social, and governance data, analytics, and scores to
+  help investors assess sustainability risks and opportunities. Bloomberg collects ESG data from thousands of companies
+  globally, offering ESG scores, climate data, green bond data, and sustainable finance analytics through the Bloomberg
   Terminal and API.
 type: Index
 accessModel:
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-esg-products.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-esg-products/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - ESG
@@ -34,9 +33,8 @@ tags:
 apis:
 - aid: bloomberg-esg-products:esg-data-api
   name: Bloomberg ESG Data API
-  description: Access Bloomberg ESG scores, environmental metrics, social indicators,
-    and governance data for thousands of publicly listed companies globally. Data
-    sourced directly from company disclosures and standardized for comparability.
+  description: Access Bloomberg ESG scores, environmental metrics, social indicators, and governance data for thousands
+    of publicly listed companies globally. Data sourced directly from company disclosures and standardized for comparability.
   humanURL: https://www.bloomberg.com/professional/solution/esg-data/
   baseURL: blpapi://localhost:8194
   tags:
@@ -50,9 +48,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/esg-data/
 - aid: bloomberg-esg-products:climate-data-api
   name: Bloomberg Climate Data API
-  description: Access physical and transition climate risk data, carbon emissions
-    data, TCFD-aligned metrics, and scenario analysis tools through Bloomberg's climate
-    data solutions.
+  description: Access physical and transition climate risk data, carbon emissions data, TCFD-aligned metrics, and
+    scenario analysis tools through Bloomberg's climate data solutions.
   humanURL: https://www.bloomberg.com/professional/solution/climate-data/
   baseURL: blpapi://localhost:8194
   tags:
@@ -66,9 +63,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/climate-data/
 - aid: bloomberg-esg-products:green-bond-data
   name: Bloomberg Green Bond Data
-  description: Comprehensive data on green, social, sustainability, and sustainability-linked
-    bonds including use of proceeds, certifications, and post-issuance reporting
-    aligned to ICMA principles.
+  description: Comprehensive data on green, social, sustainability, and sustainability-linked bonds including use
+    of proceeds, certifications, and post-issuance reporting aligned to ICMA principles.
   humanURL: https://www.bloomberg.com/professional/solution/sustainable-finance/
   baseURL: blpapi://localhost:8194
   tags:
@@ -80,6 +76,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/sustainable-finance/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-esg-products-domain-security.yml
 - type: Portal
@@ -95,16 +96,13 @@ common:
 - type: Features
   data:
   - name: ESG Scores
-    description: Standardized ESG scores for thousands of companies based on disclosed
-      data.
+    description: Standardized ESG scores for thousands of companies based on disclosed data.
   - name: Environmental Metrics
     description: Carbon emissions, water usage, energy consumption, and waste data.
   - name: Social Indicators
-    description: Employee relations, diversity metrics, health and safety, and community
-      data.
+    description: Employee relations, diversity metrics, health and safety, and community data.
   - name: Governance Data
-    description: Board composition, executive compensation, shareholder rights, and
-      audit data.
+    description: Board composition, executive compensation, shareholder rights, and audit data.
   - name: Climate Risk Analytics
     description: Physical and transition climate risk metrics aligned to TCFD framework.
   - name: Sustainable Finance Data
@@ -124,3 +122,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
