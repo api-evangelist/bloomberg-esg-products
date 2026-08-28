@@ -5,6 +5,17 @@ description: Bloomberg ESG Products provide environmental, social, and governanc
   globally, offering ESG scores, climate data, green bond data, and sustainable finance analytics through the Bloomberg
   Terminal and API.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
